@@ -2,6 +2,8 @@ const log = require('./src/log');
 const { setupApp } = require('./src/app');
 const config = require('config');
 const { createLightship } = require('lightship');
+
+
 /**
  * Uses node cluster to make sure all CPU cores will be used
  * https://nodejs.org/api/cluster.html
